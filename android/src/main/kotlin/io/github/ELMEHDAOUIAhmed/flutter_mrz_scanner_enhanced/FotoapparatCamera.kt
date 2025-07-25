@@ -124,8 +124,6 @@ class FotoapparatCamera constructor(
         val cropped = calculateCutoutRectCardSize(bitmap, true)
         val processedBitmap = preprocessImage(cropped)
        
-
-
         scope.launch {
         val mrzText = scanMRZ(processedBitmap)
         val fixedMrz = extractMRZ(mrzText)
