@@ -53,7 +53,7 @@ android {
 
 dependencies {
     implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10'
-    implementation 'cz.adaptech:tesseract4android:4.1.1'
+    implementation 'cz.adaptech.tesseract4android:tesseract4android:4.9.0'
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.github.MarcBS:Fotoapparat:v2.7.0'
     implementation 'androidx.annotation:annotation-jvm:1.9.1'
